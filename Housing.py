@@ -111,7 +111,7 @@ def FetchResident():
     resident_id = request.form['resident_id']
 
     output = {}
-    select_sql = "SELECT resident_id, fname, lname, apt_num, st_name from resident where resident_id=%s"
+    select_sql = "SELECT resident_id, first_name, last_name, apt_num, st_name from resident where resident_id=%s"
     cursor = db_conn.cursor()
     resident_image_file_name_in_s3 = "resident-id-" + str(resident_id) + "_image_file"
     s3 = boto3.resource('s3')
