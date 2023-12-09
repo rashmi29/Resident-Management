@@ -107,7 +107,7 @@ def GetResident():
 
 #done
 @app.route("/fetchdata", methods=['POST'])
-def FetchStudent():
+def FetchResident():
     resident_id = request.form['resident_id']
 
     output = {}
