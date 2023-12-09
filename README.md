@@ -42,7 +42,7 @@
 **Step 3** : 
 Run the application using the following command
 ```
-    sudo python3 StudentApp.py
+    sudo python3 Housing.py
 ```
 Go to domain ***studentdata.tk*** to access the website
 
