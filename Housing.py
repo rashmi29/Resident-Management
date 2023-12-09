@@ -129,6 +129,7 @@ def FetchResident():
         s3_location,
         awsbucket,
         resident_image_file_name_in_s3)
+    print(image_url)
 
     try:
         cursor.execute(select_sql, (resident_id))
