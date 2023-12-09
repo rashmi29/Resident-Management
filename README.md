@@ -44,14 +44,14 @@ Run the application using the following command
 ```
     sudo python3 Housing.py
 ```
-Go to domain ***studentdata.tk*** to access the website
+Go to domain ***residentdata.tk*** to access the website
 
 Login as administrator using the following credentials
 
 **username : admin**  
 **password : adminpassword**
 
-**Step 4** : Enter any student's data on **'Add Student Information'** page.
+**Step 4** : Enter any resident's data on **'Add resident Information'** page.
 
 
 **Step 5** : To check the entries in the database we need to connect to mysql from EC2.
@@ -59,16 +59,16 @@ Login as administrator using the following credentials
 For this, repeat step1 in new Gitbash window and run the below command
 
 ```
-    mysql -h  student.cmojbf7a9vmd.us-west-2.rds.amazonaws.com -u admin -p
+    mysql -h  resident.cmojbf7a9vmd.us-west-2.rds.amazonaws.com -u admin -p
 ```
 
 When prompted, enter the password as ***qazqazqaz***
 
-check if the data is reflected in mysql database for the table named **"student"** in database **"student"**
+check if the data is reflected in mysql database for the table named **"resident"** in database **"resident"**
 
 ```sql
-    use student;
-    select * from student;
+    use resident;
+    select * from resident;
 ```
 
 
