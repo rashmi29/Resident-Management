@@ -93,7 +93,7 @@ def AddResident():
         cursor.close()
 
     print("all modification done...")
-    return render_template('StudentAdd_Success.html', name=resident_name)
+    return render_template('ResidentAdd_Success.html', name=resident_name)
 
 #done
 @app.route("/admin", methods=['GET', 'POST'])
