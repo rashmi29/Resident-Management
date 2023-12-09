@@ -1,4 +1,4 @@
-# Cloud-based web application for University data
+# Cloud-based web application for Resident data
 
 ## End to End execution steps :
 
@@ -9,11 +9,11 @@
 * Run the following command, if necessary, to ensure your key is not publicly viewable.
 
 ```
-    chmod 400 student_EC2_keypair.pem
+    chmod 400 resident_EC2_keypair.pem
 ```
 * Connect to your instance using its Public DNS:
 ```
-    ssh -i "student_EC2_keypair.pem" ubuntu@ec2-34-221-91-120.us-west-2.compute.amazonaws.com
+    ssh -i "resident_EC2_keypair.pem" ubuntu@ec2-34-221-91-120.us-west-2.compute.amazonaws.com
 ```
 * Now you will be connected to EC2 server
 
