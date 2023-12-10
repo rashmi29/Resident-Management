@@ -59,7 +59,7 @@ Login as administrator using the following credentials
 For this, repeat step1 in new Gitbash window and run the below command
 
 ```
-    mysql -h  resident.cmojbf7a9vmd.us-west-2.rds.amazonaws.com -u admin -p
+    mysql -h  resident.cwek9hx2daym.us-east-1.rds.amazonaws.com" -u admin -p
 ```
 
 When prompted, enter the password as ***qazqazqaz***
